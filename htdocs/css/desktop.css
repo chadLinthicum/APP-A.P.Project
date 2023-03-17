@@ -1,0 +1,30 @@
+a {
+  color: var(--main-bg-color);
+}
+nav ul {
+  font-size: 1.5em;
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+#Contact_Container,
+#Home_Container,
+#Music_Container,
+#Other_Container,
+#Schedule_Container {
+  flex-wrap: wrap;
+}
+#Hamburger {
+  display: none;
+}
+#Marquee {
+  animation: move-rtl 15000ms linear infinite;
+}
+
+#My_Name {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}

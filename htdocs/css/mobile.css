@@ -1,0 +1,58 @@
+a {
+  color: #373737;
+}
+nav {
+  padding-top: 5vh;
+}
+nav ul {
+  display: inline;
+  list-style-type: none;
+  font-size: 3rem;
+}
+.popout-hide {
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 0;
+  height: 100vh;
+  background-color: rgba(211, 211, 211, 0.965);
+  transform: translate(50vw);
+  transition-duration: 550ms;
+}
+.popout-hide a {
+  display: none;
+}
+.popout-show {
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgba(211, 211, 211, 0.965);
+  width: 80vw;
+  height: 100vh;
+  transition-duration: 550ms;
+}
+#Hamburger {
+  position: absolute;
+  top: 15px;
+  left: 3%;
+  width: 40px;
+}
+
+#Header {
+  height: 70px;
+}
+
+#Home_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#Marquee {
+  animation: move-rtl 10000ms linear infinite;
+}
+#My_Name {
+  font-size: 1.8rem;
+  float: right;
+  padding-right: 5%;
+}
