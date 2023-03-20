@@ -1,4 +1,4 @@
-a {
+nav a {
   color: #d89488;
 }
 
@@ -52,4 +52,8 @@ p {
   width: 35px;
   height: 35px;
   object-fit: fill;
+}
+#Nav_Social_Bottom {
+  display: flex;
+  align-items: center;
 }

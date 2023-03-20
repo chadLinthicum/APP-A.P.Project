@@ -8,7 +8,7 @@ body {
   text-align: center;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 address {
   margin: auto;
@@ -137,15 +137,33 @@ p {
 #Music_Container,
 #About_Container,
 #Schedule_Container,
-#Subscribe_Container {
+#Subscribe_Container,
+#Bottom_Container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
 #Music_Container,
-#About_Container {
+#About_Container,
+#Bottom_Container {
   background-color: rgba(171, 194, 112, 0.15);
+}
+#Bottom_Container {
+  padding-bottom: 30px;
+}
+#Bottom_Container ul {
+  margin: 0;
+  padding: 0;
+}
+#Bottom_Container ul li {
+  text-decoration: none;
+  margin: 0;
+  padding: 0.25rem;
+}
+#Bottom_Container a {
+  text-decoration: none !important;
+  color: white;
 }
 #Music_Symbols_Container {
   display: flex;
