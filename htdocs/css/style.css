@@ -79,6 +79,9 @@ p {
   padding: 15px;
   border-radius: 25%;
 }
+.music-symbols {
+  width: 2rem;
+}
 #Band_Logo_Home {
   width: 12.5rem;
   border-radius: 50%;
@@ -123,7 +126,7 @@ p {
 #Contact_Container,
 #Home_Container,
 #Music_Container,
-#Other_Container,
+#Subscribe_Container,
 #Schedule_Container {
   display: flex;
   flex-direction: column;
@@ -134,8 +137,13 @@ p {
   text-align: center;
 }
 #Music_Container,
-#Other_Container {
+#Subscribe_Container {
   background-color: rgba(171, 194, 112, 0.15);
+}
+#Music_Symbols_Container {
+  display: flex;
+  gap: 2rem;
+  padding: 0.5rem 0;
 }
 #Last_Name {
   color: var(--main-bg-color);
