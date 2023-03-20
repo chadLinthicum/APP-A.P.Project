@@ -10,10 +10,10 @@ let nav = document.getElementById("Nav");
 function toggleNav() {
   nav.classList.toggle("popout-hide");
   nav.classList.toggle("popout-show");
-  if (hamburger.src.includes("eggNoHatch.webp")) {
-    hamburger.src = "assets/eggHatch.gif";
+  if (hamburger.src.includes("burger-off.png")) {
+    hamburger.src = "assets/burger-on.png";
   } else {
-    hamburger.src = "assets/eggNoHatch.webp";
+    hamburger.src = "assets/burger-off.png";
   }
 }
 

@@ -8,7 +8,10 @@ li {
   display: inline-block;
   list-style-type: none;
 }
-
+#Band_Logo_Nav {
+  width: 12.5rem;
+  padding-top: 15px;
+}
 #Contact_Container,
 #Home_Container,
 #Music_Container,
@@ -21,10 +24,4 @@ li {
 }
 #Marquee {
   animation: move-rtl 15000ms linear infinite;
-}
-
-#My_Name {
-  text-align: center;
-  color: #fff;
-  font-size: 2rem;
 }

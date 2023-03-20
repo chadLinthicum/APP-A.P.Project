@@ -4,7 +4,7 @@
   font-display: swap;
 }
 :root {
-  --main-bg-color: #abc270;
+  --main-bg-color: #b5bb58;
 }
 * {
   box-sizing: border-box;
@@ -79,6 +79,11 @@ p {
   padding: 15px;
   border-radius: 25%;
 }
+#Band_Logo_Home {
+  width: 12.5rem;
+  border-radius: 50%;
+  border: 0.25rem black solid;
+}
 #Contact_Container {
   display: flex;
   flex-direction: column;
@@ -96,6 +101,7 @@ p {
   z-index: 100;
   background-color: #000;
   box-shadow: 0px 3px 3px rgb(0, 0, 0);
+  text-align: center;
 }
 #Header a {
   text-decoration: none;
@@ -130,16 +136,6 @@ p {
 #Music_Container,
 #Other_Container {
   background-color: rgba(171, 194, 112, 0.15);
-}
-#My_Face {
-  width: 12rem;
-  height: 12rem;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 10%;
-  border-bottom-left-radius: 10%;
-  box-shadow: rgba(0, 0, 0, 0.5) 0 1px 25px 10px;
-  border: 7.5px solid transparent;
 }
 #Last_Name {
   color: var(--main-bg-color);

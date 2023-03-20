@@ -31,17 +31,20 @@ nav ul {
   height: 100vh;
   transition-duration: 550ms;
 }
+#Band_Logo_Nav {
+  width: 6.5rem;
+  margin-right: 1%;
+}
 #Hamburger {
-  position: absolute;
-  top: 15px;
-  left: 3%;
+  margin-left: 3%;
   width: 40px;
 }
-
 #Header {
   height: 70px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 #Home_Container {
   display: flex;
   flex-direction: column;
@@ -50,9 +53,4 @@ nav ul {
 }
 #Marquee {
   animation: move-rtl 10000ms linear infinite;
-}
-#My_Name {
-  font-size: 1.8rem;
-  float: right;
-  padding-right: 5%;
 }
