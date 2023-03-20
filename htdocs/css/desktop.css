@@ -4,10 +4,6 @@ a {
 nav ul {
   font-size: 1.5em;
 }
-li {
-  display: inline-block;
-  list-style-type: none;
-}
 #Band_Logo_Nav {
   width: 12.5rem;
   padding-top: 15px;
