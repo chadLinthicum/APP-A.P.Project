@@ -1,18 +1,25 @@
 a {
-  color: var(--main-bg-color);
+  color: #d89488;
 }
 nav ul {
   font-size: 1.5em;
+}
+p {
+  max-width: 75vw;
 }
 #Band_Logo_Nav {
   width: 12.5rem;
   padding-top: 15px;
 }
+#About_Container p {
+  max-width: 60vw;
+}
+#About_Container,
 #Contact_Container,
 #Home_Container,
 #Music_Container,
-#Subscribe_Container,
-#Schedule_Container {
+#Schedule_Container,
+#Subscribe_Container {
   flex-wrap: wrap;
 }
 #Hamburger {

@@ -3,11 +3,9 @@
   src: url(../assets/fonts/JosefinSans-VariableFont_wght.ttf);
   font-display: swap;
 }
-:root {
-  --main-bg-color: #b5bb58;
-}
-* {
+body {
   box-sizing: border-box;
+  text-align: center;
 }
 a {
   text-decoration: none;
@@ -36,18 +34,10 @@ footer {
   height: 30px;
   display: flex;
 }
-h2 {
-}
-h3 {
-}
-h4 {
-  color: rgb(173, 188, 85);
-}
 li {
   list-style-type: none;
 }
 nav ul {
-  text-align: center;
   padding-left: 0;
 }
 nav ul li {
@@ -56,9 +46,8 @@ nav ul li {
 p {
   text-align: center;
   font-size: 1.15rem;
-  max-width: 75vw;
+  font-weight: 375;
 }
-
 .category-group {
   display: flex;
   flex-wrap: wrap;
@@ -88,6 +77,19 @@ p {
 }
 .music-symbols {
   width: 2rem;
+}
+#About_Container {
+  padding-bottom: 15px;
+}
+#About_Container h3 {
+  margin: 1rem 0rem 0.5rem 0rem;
+}
+#About_Container h4 {
+  margin: 0.5rem;
+  color: rgb(173, 188, 85);
+}
+#About_Container p {
+  margin-top: 0;
 }
 #Band_Logo_Home {
   width: 12.5rem;
@@ -133,27 +135,22 @@ p {
 #Contact_Container,
 #Home_Container,
 #Music_Container,
-#Subscribe_Container,
-#Schedule_Container {
+#About_Container,
+#Schedule_Container,
+#Subscribe_Container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
-#Main {
-  text-align: center;
-}
 #Music_Container,
-#Subscribe_Container {
+#About_Container {
   background-color: rgba(171, 194, 112, 0.15);
 }
 #Music_Symbols_Container {
   display: flex;
   gap: 2rem;
   padding: 0.5rem 0;
-}
-#Last_Name {
-  color: var(--main-bg-color);
 }
 #Marquee {
   height: 12px;
@@ -172,7 +169,14 @@ p {
   display: flex;
   flex-direction: column;
 }
-
 #Schedule_List li {
-  padding: 5px;
+  padding: 0.25rem;
+}
+#Schedule_List li:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0.25rem;
+  border-bottom: 1px solid black;
 }
