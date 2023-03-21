@@ -78,7 +78,8 @@ p {
 .music-symbols {
   width: 2rem;
 }
-#About_Container {
+#About_Container,
+#Subscribe_Container {
   padding-bottom: 15px;
 }
 #About_Container h3 {
@@ -165,6 +166,7 @@ p {
   text-decoration: none !important;
   color: white;
 }
+
 #Music_Symbols_Container {
   display: flex;
   gap: 2rem;
@@ -198,3 +200,35 @@ p {
   padding-top: 0.25rem;
   border-bottom: 1px solid black;
 }
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-group input,
+.form-group button,
+.form-group textarea {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+.form-group button {
+  background-color: #d89488;
+  width: 80px;
+}
+/* .form-group
+.form-group input,
+.form-group textarea {
+  margin: 5px;
+  border-radius: 5px;
+}
+.form-group-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: inherit;
+}
+.form-group-content button {
+  border-radius: 5px;
+} */
