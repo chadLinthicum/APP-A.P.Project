@@ -90,3 +90,6 @@ p {
   align-items: center;
   filter: invert(1);
 }
+#Logo_Min {
+  max-width: 10rem;
+}

@@ -5,7 +5,6 @@
 }
 body {
   box-sizing: border-box;
-  text-align: center;
 }
 a {
   text-decoration: none !important;
@@ -13,6 +12,7 @@ a {
 address {
   margin: auto;
 }
+
 body {
   padding: 0;
   margin: 0;
@@ -145,8 +145,11 @@ p {
   align-items: center;
   justify-content: space-evenly;
 }
+#Main {
+  text-align: center;
+}
 #Music_Container,
-#About_Container,
+#Subscribe_Container,
 #Bottom_Container {
   background-color: rgba(171, 194, 112, 0.15);
 }
@@ -218,17 +221,9 @@ p {
   background-color: #d89488;
   width: 80px;
 }
-/* .form-group
-.form-group input,
-.form-group textarea {
-  margin: 5px;
-  border-radius: 5px;
+#Legal_List {
+  padding: 0;
 }
-.form-group-content {
-  display: flex;
-  flex-direction: column;
-  flex-grow: inherit;
+#Privacy_Contact {
+  color: rgb(183, 229, 47);
 }
-.form-group-content button {
-  border-radius: 5px;
-} */

@@ -41,7 +41,7 @@ document.querySelectorAll('a[href^="#"').forEach((anchor) => {
 //Adds a top spacing to anchor jumps
 $(".nav-link").click(function () {
   let headerHeight = document.getElementById("Header").offsetHeight;
-  var divId = $(this).attr("href");
+  let divId = $(this).attr("href");
   $("html, body").animate({
     scrollTop: $(divId).offset().top - headerHeight,
   });
