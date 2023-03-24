@@ -6,6 +6,7 @@
 
 let hamburger = document.getElementById("Hamburger");
 let nav = document.getElementById("Nav");
+let subscribeText = document.getElementById("Subscribe-Text");
 
 function toggleNav() {
   nav.classList.toggle("popout-hide");
@@ -46,3 +47,6 @@ $(".nav-link").click(function () {
     scrollTop: $(divId).offset().top - headerHeight,
   });
 });
+
+
+subscribeText.value = "Hello, please subsribe me to your newsletter!";

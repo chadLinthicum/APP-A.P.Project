@@ -216,6 +216,7 @@ p {
   margin: 5px;
   border: 2px solid black;
   font-weight: bold;
+  box-shadow: 1.5px 1.5px #8e8e8e;
 }
 .form-group button {
   background-color: #d89488;
@@ -226,4 +227,10 @@ p {
 }
 #Privacy_Contact {
   color: rgb(183, 229, 47);
+}
+#Members h3 {
+  margin-top: 0;
+}
+#Subscribe-Text {
+  display: none;
 }
