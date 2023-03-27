@@ -48,5 +48,4 @@ $(".nav-link").click(function () {
   });
 });
 
-
 subscribeText.value = "Hello, please subsribe me to your newsletter!";
