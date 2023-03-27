@@ -11,10 +11,10 @@ let subscribeText = document.getElementById("Subscribe-Text");
 function toggleNav() {
   nav.classList.toggle("popout-hide");
   nav.classList.toggle("popout-show");
-  if (hamburger.src.includes("burger-off.png")) {
-    hamburger.src = "assets/burger-on.png";
+  if (hamburger.src.includes("burger-off.webp")) {
+    hamburger.src = "../assets/burger-on.webp";
   } else {
-    hamburger.src = "assets/burger-off.png";
+    hamburger.src = "../assets/burger-off.webp";
   }
 }
 

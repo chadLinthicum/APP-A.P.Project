@@ -76,7 +76,7 @@ p {
   border-radius: 25%;
 }
 .music-symbols {
-  width: 2rem;
+  width: 2.25rem;
 }
 #About_Container,
 #Subscribe_Container {
@@ -311,9 +311,9 @@ p {
 }
 
 #Gallery_Container {
-  background: linear-gradient(to right, #cc9289, #727c38);
+  background: linear-gradient(to right, #d98a86, #727c38);
   background-size: 400% 100%;
-  animation: rainbowBorder 10s ease infinite;
+  animation: rainbowBorder 7.5s ease infinite;
 }
 
 @keyframes rainbowBorder {
