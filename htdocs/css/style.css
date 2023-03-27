@@ -311,7 +311,7 @@ p {
 }
 
 #Gallery_Container {
-  background: linear-gradient(to right, #cc9289, #51551a);
+  background: linear-gradient(to right, #cc9289, #727c38);
   background-size: 400% 100%;
   animation: rainbowBorder 10s ease infinite;
 }
