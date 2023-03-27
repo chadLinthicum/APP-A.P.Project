@@ -3,7 +3,7 @@ const images = document.querySelectorAll('.gallery img');
 
 const modal = document.createElement('div');
 const closeBtn = document.createElement('button');
-closeBtn.innerText = "X";
+closeBtn.innerText = "✖";
 closeBtn.className = "closeBtn"
 const header = document.getElementById("Header");
 modal.classList.add('modal');
