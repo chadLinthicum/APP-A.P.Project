@@ -292,16 +292,21 @@ p {
 }
 
 .closeBtn {
-  background-color: rgba(255, 255, 255, 0.75);
+  background: none;
   border-radius: 50%;
   border: none;
   position: absolute;
   width: 2rem;
   height: 2rem;
-  top: 10px;
-  right: 10px;
+  top: 15px;
+  right: 29px;
   cursor: pointer;
   font-weight: bold;
+}
+
+#closeBtnImage {
+  width: 40px;
+  opacity: 0.65;
 }
 
 #Gallery_Container {
@@ -311,9 +316,20 @@ p {
 }
 
 #Gallery_Container {
-  background: linear-gradient(to right, #d98a86, #727c38);
-  background-size: 400% 100%;
-  animation: rainbowBorder 7.5s ease infinite;
+  background: linear-gradient(
+    to right,
+    black,
+    rgb(46, 46, 46),
+    #d98a86,
+    #9b9b35,
+    rgb(150, 150, 150),
+    #9b9b35,
+    #d98a86,
+    rgb(46, 46, 46),
+    black
+  );
+  background-size: 600% 100%;
+  animation: rainbowBorder 20s ease infinite;
 }
 
 @keyframes rainbowBorder {
