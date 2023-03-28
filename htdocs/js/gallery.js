@@ -3,7 +3,7 @@ const images = document.querySelectorAll(".gallery img");
 
 const modal = document.createElement("div");
 const closeBtn = document.createElement("button");
-closeBtn.innerHTML = '<img id="closeBtnImage" src="../assets/x.png"/>';
+closeBtn.innerHTML = '<img id="closeBtnImage" src="../assets/x.webp"/>';
 closeBtn.className = "closeBtn";
 closeBtn.style.textAlign = "center";
 const header = document.getElementById("Header");
