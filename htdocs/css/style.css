@@ -81,10 +81,6 @@ p {
 .music-symbols {
   width: 2.25rem;
 }
-.music-symbols:hover {
-  filter: invert(85%);
-  transition: filter 0.25s ease;
-}
 #About_Container,
 #Subscribe_Container {
   padding-bottom: 15px;
@@ -176,10 +172,6 @@ p {
   text-decoration: none !important;
   color: white;
 }
-#Bottom_Container a:hover {
-  color: rgb(157, 157, 157);
-  transition: color 0.25s ease;
-}
 #Music_Symbols_Container {
   display: flex;
   gap: 2rem;
@@ -232,10 +224,6 @@ p {
   background-color: #d89488;
   width: 80px;
 }
-.form-group button:hover {
-  background-color: #a67268;
-  transition: background-color 0.25s ease;
-}
 #Legal_List {
   padding: 0;
 }
@@ -264,12 +252,6 @@ p {
   border-radius: 25px;
   border: 5px solid black;
 }
-
-.gallery img:hover {
-  border: 5px solid rgb(255, 255, 255);
-  transition: border 0.25s ease;
-}
-
 .modal {
   display: none;
   position: fixed;
@@ -321,17 +303,10 @@ p {
   cursor: pointer;
   font-weight: bold;
 }
-
 #closeBtnImage {
   width: 40px;
   opacity: 0.65;
 }
-
-#closeBtnImage:hover {
-  opacity: 1;
-  transition: opacity 0.25s ease;
-}
-
 #Gallery_Container {
   display: inline-block;
   border: 2px solid transparent;

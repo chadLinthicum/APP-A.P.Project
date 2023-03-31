@@ -1,12 +1,6 @@
 nav a {
   color: #d89488;
 }
-
-nav a:hover {
-  color: #fccac1;
-  transition: color 0.25s ease;
-}
-
 nav ul {
   font-size: 1.5em;
 }
@@ -68,4 +62,28 @@ p {
 }
 #Logo_Min {
   display: none;
+}
+.gallery img:hover {
+  border: 5px solid rgb(255, 255, 255);
+  transition: border 0.25s ease;
+}
+nav a:hover {
+  color: #fccac1;
+  transition: color 0.25s ease;
+}
+.music-symbols:hover {
+  filter: invert(85%);
+  transition: filter 0.25s ease;
+}
+#Bottom_Container a:hover {
+  color: rgb(157, 157, 157);
+  transition: color 0.25s ease;
+}
+.form-group button:hover {
+  background-color: #a67268;
+  transition: background-color 0.25s ease;
+}
+#closeBtnImage:hover {
+  opacity: 1;
+  transition: opacity 0.25s ease;
 }
