@@ -83,6 +83,7 @@ p {
 }
 .music-symbols:hover {
   filter: invert(85%);
+  transition: filter 0.25s ease;
 }
 #About_Container,
 #Subscribe_Container {
@@ -177,6 +178,7 @@ p {
 }
 #Bottom_Container a:hover {
   color: rgb(157, 157, 157);
+  transition: color 0.25s ease;
 }
 #Music_Symbols_Container {
   display: flex;
@@ -232,6 +234,7 @@ p {
 }
 .form-group button:hover {
   background-color: #a67268;
+  transition: background-color 0.25s ease;
 }
 #Legal_List {
   padding: 0;
@@ -264,6 +267,7 @@ p {
 
 .gallery img:hover {
   border: 5px solid rgb(255, 255, 255);
+  transition: border 0.25s ease;
 }
 
 .modal {
@@ -325,6 +329,7 @@ p {
 
 #closeBtnImage:hover {
   opacity: 1;
+  transition: opacity 0.25s ease;
 }
 
 #Gallery_Container {

@@ -4,6 +4,7 @@ nav a {
 
 nav a:hover {
   color: #fccac1;
+  transition: color 0.25s ease;
 }
 
 nav ul {
@@ -53,6 +54,7 @@ p {
 }
 .nav_social_icons:hover {
   filter: invert(20%);
+  transition: filter 0.25s ease;
 }
 .nav_social_icons-tiktok {
   filter: invert(1);
