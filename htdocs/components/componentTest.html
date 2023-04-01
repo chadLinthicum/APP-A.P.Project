@@ -1,81 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-
-  <body>
-    <template id="card-template">
-      <style>
-        .card {
-          background-color: white;
-          border: 3px solid rgb(118, 118, 118);
-          border-radius: 10px;
-          box-shadow: 5px 5px 10px lightgray;
-          display: flex;
-          flex-direction: column;
-          padding: 10px;
-          margin: auto;
-          margin-bottom: 15px;
-          max-width: 200px;
-        }
-
-        .card-header {
-          font-size: 20px;
-          font-weight: bold;
-        }
-
-        ::slotted(img) {
-          width: 200px;
-          height: 200px;
-          border: 3px solid black;
-          border-radius: 10px;
-        }
-
-        ::slotted(span) {
-          font-size: 2rem;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-      </style>
-      <div class="card">
-        <div class="card-header">
-          <slot name="header"></slot>
-          <slot name="image"></slot>
-        </div>
-        <slot></slot>
-      </div>
-    </template>
-
-    <card-component>
-      <span slot="header">Solo</span>
-      <img slot="image" src="assets/me.webp" alt="Band_Logo_Home" />
-    </card-component>
-
-    <card-component>
-      <span slot="header">Games</span>
-      <img slot="image" src="assets/gameBuilding.webp" alt="Band_Logo_Home" />
-    </card-component>
-
-    <card-component>
-      <span slot="header">Gradient</span>
-      <img slot="image" src="assets/background.webp" alt="Band_Logo_Home" />
-    </card-component>
-
-    <script>
-      class CardComponent extends HTMLElement {
-        constructor() {
-          super();
-          const shadowRoot = this.attachShadow({ mode: "open" });
-          const template = document.querySelector("#card-template");
-          shadowRoot.appendChild(template.content.cloneNode(true));
-        }
-      }
-      customElements.define("card-component", CardComponent);
-    </script>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <template id="card-template">
+      <style>
+        .card {
+          background-color: white;
+          border: 3px solid rgb(118, 118, 118);
+          border-radius: 10px;
+          box-shadow: 5px 5px 10px lightgray;
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+          margin: auto;
+          margin-bottom: 15px;
+          max-width: 200px;
+        }
+
+        .card-header {
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        ::slotted(img) {
+          width: 200px;
+          height: 200px;
+          border: 3px solid black;
+          border-radius: 10px;
+        }
+
+        ::slotted(span) {
+          font-size: 2rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      </style>
+      <div class="card">
+        <div class="card-header">
+          <slot name="header"></slot>
+          <slot name="image"></slot>
+        </div>
+        <slot></slot>
+      </div>
+    </template>
+
+    <card-component>
+      <span slot="header">Solo</span>
+      <img slot="image" src="assets/me.webp" alt="Band_Logo_Home" />
+    </card-component>
+
+    <card-component>
+      <span slot="header">Games</span>
+      <img slot="image" src="assets/gameBuilding.webp" alt="Band_Logo_Home" />
+    </card-component>
+
+    <card-component>
+      <span slot="header">Gradient</span>
+      <img slot="image" src="assets/background.webp" alt="Band_Logo_Home" />
+    </card-component>
+
+    <script>
+      class CardComponent extends HTMLElement {
+        constructor() {
+          super();
+          const shadowRoot = this.attachShadow({ mode: "open" });
+          const template = document.querySelector("#card-template");
+          shadowRoot.appendChild(template.content.cloneNode(true));
+        }
+      }
+      customElements.define("card-component", CardComponent);
+    </script>
+  </body>
+</html>

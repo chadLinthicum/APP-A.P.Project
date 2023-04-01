@@ -1,90 +1,90 @@
-nav a {
-  color: #d89488;
-}
-nav ul {
-  font-size: 1.5em;
-}
-p {
-  max-width: 75vw;
-}
-#Band_Logo_Nav {
-  width: 12.5rem;
-  padding-top: 15px;
-}
-#About_Container p {
-  max-width: 60vw;
-}
-#About_Container,
-#Contact_Container,
-#Home_Container,
-#Music_Container,
-#Tour_Container,
-#Subscribe_Container {
-  flex-wrap: wrap;
-}
-#Hamburger {
-  display: none;
-}
-#Marquee {
-  animation: move-rtl 15000ms linear infinite;
-}
-#Nav_Social {
-  margin-right: 0.5rem;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-#Nav_Social a {
-  margin: 0;
-  padding: 0.35rem;
-}
-.nav_social_icons {
-  filter: invert(1);
-  width: 40px;
-  height: 60px;
-  object-fit: fill;
-}
-.nav_social_icons:hover {
-  filter: invert(20%);
-  transition: filter 0.25s ease;
-}
-.nav_social_icons-tiktok {
-  filter: invert(1);
-  width: 35px;
-  height: 35px;
-  object-fit: fill;
-}
-#Nav_Social_Bottom {
-  display: flex;
-  align-items: center;
-}
-#Logo_Min {
-  display: none;
-}
-.gallery img:hover {
-  border: 5px solid rgb(255, 255, 255);
-  transition: border 0.25s ease;
-}
-nav a:hover {
-  color: #fccac1;
-  transition: color 0.25s ease;
-  text-decoration: underline !important;
-}
-.music-symbols:hover {
-  filter: invert(85%);
-  transition: filter 0.25s ease;
-}
-#Bottom_Container a:hover {
-  color: rgb(157, 157, 157);
-  transition: color 0.25s ease;
-}
-.form-group button:hover {
-  background-color: #a67268;
-  transition: background-color 0.25s ease;
-}
-#closeBtnImage:hover {
-  opacity: 1;
-  transition: opacity 0.25s ease;
-}
+nav a {
+  color: #d89488;
+}
+nav ul {
+  font-size: 1.5em;
+}
+p {
+  max-width: 75vw;
+}
+#Band_Logo_Nav {
+  width: 12.5rem;
+  padding-top: 15px;
+}
+#About_Container p {
+  max-width: 60vw;
+}
+#About_Container,
+#Contact_Container,
+#Home_Container,
+#Music_Container,
+#Tour_Container,
+#Subscribe_Container {
+  flex-wrap: wrap;
+}
+#Hamburger {
+  display: none;
+}
+#Marquee {
+  animation: move-rtl 15000ms linear infinite;
+}
+#Nav_Social {
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#Nav_Social a {
+  margin: 0;
+  padding: 0.35rem;
+}
+.nav_social_icons {
+  filter: invert(1);
+  width: 40px;
+  height: 60px;
+  object-fit: fill;
+}
+.nav_social_icons:hover {
+  filter: invert(20%);
+  transition: filter 0.25s ease;
+}
+.nav_social_icons-tiktok {
+  filter: invert(1);
+  width: 35px;
+  height: 35px;
+  object-fit: fill;
+}
+#Nav_Social_Bottom {
+  display: flex;
+  align-items: center;
+}
+#Logo_Min {
+  display: none;
+}
+.gallery img:hover {
+  border: 5px solid rgb(255, 255, 255);
+  transition: border 0.25s ease;
+}
+nav a:hover {
+  color: #fccac1;
+  transition: color 0.25s ease;
+  text-decoration: underline !important;
+}
+.music-symbols:hover {
+  filter: invert(85%);
+  transition: filter 0.25s ease;
+}
+#Bottom_Container a:hover {
+  color: rgb(157, 157, 157);
+  transition: color 0.25s ease;
+}
+.form-group button:hover {
+  background-color: #a67268;
+  transition: background-color 0.25s ease;
+}
+#closeBtnImage:hover {
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
