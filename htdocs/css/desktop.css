@@ -70,6 +70,7 @@ p {
 nav a:hover {
   color: #fccac1;
   transition: color 0.25s ease;
+  text-decoration: underline !important;
 }
 .music-symbols:hover {
   filter: invert(85%);
