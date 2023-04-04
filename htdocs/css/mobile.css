@@ -1,101 +1,101 @@
-a {
-  color: #373737;
-}
-nav {
-  padding-top: 5vh;
-}
-nav ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style-type: none;
-  font-size: 2.5rem;
-}
-p {
-  max-width: 80vw;
-}
-.popout-hide {
-  top: 0;
-  right: 0;
-  position: absolute;
-  width: 0;
-  height: 100vh;
-  background-color: rgba(211, 211, 211, 0.965);
-  transform: translate(50vw);
-  transition-duration: 550ms;
-}
-.popout-hide a {
-  display: none;
-}
-.popout-hide img {
-  display: none;
-}
-.popout-show {
-  top: 0;
-  right: 0;
-  position: absolute;
-  background-color: rgba(211, 211, 211, 0.965);
-  width: 80vw;
-  height: 100vh;
-  transition-duration: 550ms;
-}
-#Band_Logo_Nav {
-  width: 6.5rem;
-  margin-right: 1%;
-  margin-top: 8%;
-}
-#Hamburger {
-  margin-left: 3%;
-  width: 40px;
-}
-#Header {
-  height: 70px;
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#Home_Container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-#Marquee {
-  animation: move-rtl 10000ms linear infinite;
-}
-#Nav_Social {
-  margin-right: 0.5rem;
-  display: flex;
-  align-items: center;
-  position: relative;
-  top: 0;
-  right: 0;
-}
-#Nav_Social a {
-  margin: 0;
-  padding: 0.35rem;
-}
-#Tour_List li {
-  max-width: 90vw;
-}
-.nav_social_icons {
-  width: 40px;
-  height: 60px;
-  object-fit: fill;
-}
-.nav_social_icons-tiktok {
-  width: 35px;
-  height: 35px;
-  object-fit: fill;
-}
-#Nav_Social_Bottom {
-  display: flex;
-  align-items: center;
-  filter: invert(1);
-}
-#Logo_Min {
-  max-width: 10rem;
-}
-.gallery img:first-child {
-  margin-top: 0;
-}
+a {
+  color: #373737;
+}
+nav {
+  padding-top: 5vh;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  font-size: 2.5rem;
+}
+p {
+  max-width: 80vw;
+}
+.popout-hide {
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 0;
+  height: 100vh;
+  background-color: rgba(211, 211, 211, 0.965);
+  transform: translate(50vw);
+  transition-duration: 550ms;
+}
+.popout-hide a {
+  display: none;
+}
+.popout-hide img {
+  display: none;
+}
+.popout-show {
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgba(211, 211, 211, 0.965);
+  width: 80vw;
+  height: 100vh;
+  transition-duration: 550ms;
+}
+#Band_Logo_Nav {
+  width: 6.5rem;
+  margin-right: 1%;
+  margin-top: 8%;
+}
+#Hamburger {
+  margin-left: 3%;
+  width: 40px;
+}
+#Header {
+  height: 70px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Home_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#Marquee {
+  animation: move-rtl 10000ms linear infinite;
+}
+#Nav_Social {
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+#Nav_Social a {
+  margin: 0;
+  padding: 0.35rem;
+}
+#Tour_List li {
+  max-width: 90vw;
+}
+.nav_social_icons {
+  width: 40px;
+  height: 60px;
+  object-fit: fill;
+}
+.nav_social_icons-tiktok {
+  width: 35px;
+  height: 35px;
+  object-fit: fill;
+}
+#Nav_Social_Bottom {
+  display: flex;
+  align-items: center;
+  filter: invert(1);
+}
+#Logo_Min {
+  max-width: 10rem;
+}
+.gallery img:first-child {
+  margin-top: 0;
+}

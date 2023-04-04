@@ -1,220 +1,137 @@
 @font-face {
   font-family: JosefinSans;
-
   src: url(../assets/fonts/JosefinSans-VariableFont_wght.ttf);
-
   font-display: swap;
 }
-
 body {
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none !important;
 }
-
 address {
   margin: auto;
 }
-
 body {
   padding: 0;
-
   margin: 0;
-
   font-family: JosefinSans;
-
   background-position: center center;
-
   background-attachment: fixed;
-
   background-repeat: no-repeat;
-
   background-color: rgba(55, 55, 55, 1);
-
   background-size: cover;
-
   color: #fff;
 }
-
 button {
   cursor: pointer;
 }
-
 footer {
   position: fixed;
-
   bottom: 0;
-
   width: 100%;
-
   align-items: center;
-
   background-color: #000;
-
   text-align: center;
-
   height: 30px;
-
   display: flex;
 }
-
 li {
   list-style-type: none;
 }
-
 nav ul {
   padding-left: 0;
 }
-
 nav ul li {
   display: inline-block;
 }
-
 p {
   text-align: center;
-
   font-size: 1.15rem;
-
   font-weight: 375;
 }
-
 .category-group {
   display: flex;
-
   flex-wrap: wrap;
-
   align-items: center;
-
   justify-content: center;
 }
-
 .card {
-  /* border-top-right-radius: 50% 25%;
-
-  border-top-left-radius: 50% 25%;
-
-  border-bottom-right-radius: 50% 25%;
-
-  border-bottom-left-radius: 50% 25%; */
-
+  /* border-top-right-radius: 50% 25%; border-top-left-radius: 50% 25%; border-bottom-right-radius: 50% 25%; border-bottom-left-radius: 50% 25%; */
   border-radius: 25%;
-
   box-shadow: rgba(0, 0, 0, 0.5) 0 1px 25px 10px;
-
   border: 5px solid #5c6a40;
-
   margin: 2.5%;
-
   width: 210px;
 }
-
 .card h4 {
   padding: 0;
-
   margin-bottom: 0;
 }
-
 .card-image {
   width: 10rem;
-
   height: 10rem;
-
   padding: 15px;
-
   border-radius: 25%;
 }
-
 .music-symbols {
   width: 2.25rem;
 }
-
 #About_Container,
 #Subscribe_Container {
   padding-bottom: 15px;
 }
-
 #About_Container h3 {
   margin: 1rem 0rem 0.5rem 0rem;
 }
-
 #About_Container h4 {
   margin: 0.5rem;
-
   color: rgb(173, 188, 85);
 }
-
 #About_Container p {
   margin-top: 0;
 }
-
 #Band_Logo_Home {
   width: 12.5rem;
-
   border-radius: 50%;
-
   border: 0.25rem black solid;
 }
-
 #Contact_Container {
   display: flex;
-
   flex-direction: column;
-
   align-items: center;
 }
-
 #Fill_Container {
   min-height: 400px;
 }
-
 #Header {
   position: sticky;
-
   margin-top: 0;
-
   width: 100%;
-
   top: 0;
-
   left: 0;
-
   z-index: 100;
-
   background-color: #000;
-
   box-shadow: 0px 3px 3px rgb(0, 0, 0);
-
   text-align: center;
 }
-
 #Header a {
   text-decoration: none;
-
   font-weight: 600;
-
   padding: 0 1rem;
 }
-
 #Header h1 {
   margin: 0;
-
   padding-top: 1.5rem;
 }
-
 #Header ul {
   margin: 0;
-
   padding-top: 1rem;
-
   padding-bottom: 1rem;
 }
-
 #Home_Container {
   padding-top: 15px;
 }
-
 #Contact_Container,
 #Home_Container,
 #Music_Container,
@@ -223,276 +140,172 @@ p {
 #Subscribe_Container,
 #Bottom_Container {
   display: flex;
-
   flex-direction: column;
-
   align-items: center;
-
   justify-content: space-evenly;
 }
-
 #Main {
   text-align: center;
 }
-
 #Music_Container,
 #Subscribe_Container,
 #Bottom_Container {
   background-color: rgba(171, 194, 112, 0.15);
 }
-
 #Bottom_Container {
   padding-bottom: 30px;
 }
-
 #Bottom_Container ul {
   margin: 0;
-
   padding: 0;
 }
-
 #Bottom_Container ul li {
   text-decoration: none;
-
   margin: 0;
-
   padding: 0.25rem;
 }
-
 #Bottom_Container a {
   text-decoration: none !important;
-
   color: white;
 }
-
 #Music_Symbols_Container {
   display: flex;
-
   gap: 2rem;
-
   padding: 0.5rem 0;
 }
-
 #Marquee {
   height: 12px;
 }
-
 @keyframes move-rtl {
   0% {
     transform: translateX(100vw);
   }
-
   100% {
     transform: translateX(-350px);
   }
 }
-
 #Tour_List {
   padding: 0;
-
   margin-top: 0;
-
   display: flex;
-
   flex-direction: column;
 }
-
 #Tour_List li {
   padding: 0.25rem;
 }
-
 #Tour_List li:after {
   content: "";
-
   display: block;
-
   margin: 0 auto;
-
   width: 100%;
-
   padding-top: 0.25rem;
-
   border-bottom: 1px solid black;
 }
-
 .form-group {
   display: flex;
-
   flex-direction: column;
-
   align-items: center;
 }
-
 .form-group input,
 .form-group button,
 .form-group textarea {
   border-radius: 5px;
-
   padding: 5px;
-
   margin: 5px;
-
   border: 2px solid black;
-
   font-weight: bold;
-
   box-shadow: 1.5px 1.5px #000000;
 }
-
 .form-group button {
   background-color: #d89488;
-
   width: 80px;
 }
-
 #Legal_List {
   padding: 0;
 }
-
 #Privacy_Contact {
   color: rgb(183, 229, 47);
 }
-
 #Members h3 {
   margin-top: 0;
 }
-
 #Subscribe-Text {
   display: none;
-}
-
-/* Gallery */
-
+} /* Gallery */
 .gallery {
   display: flex;
-
   flex-wrap: wrap;
-
   justify-content: center;
 }
-
 .gallery img {
   width: 300px;
-
   height: 200px;
-
   margin: 10px;
-
   object-fit: cover;
-
   cursor: pointer;
-
   border-radius: 25px;
-
   border: 5px solid black;
 }
-
 .modal {
   display: none;
-
   position: fixed;
-
   z-index: 1;
-
   top: 0;
-
   left: 0;
-
   width: 100%;
-
   height: 100%;
-
   overflow: auto;
-
   background-color: rgba(0, 0, 0, 0.9);
 }
-
 .modal-content {
   position: absolute;
-
   top: 0;
-
   bottom: 0;
-
   left: 0;
-
   right: 0;
-
   background-color: rgba(0, 0, 0, 0.1);
-
   margin: auto;
-
   display: block;
-
   margin: auto;
-
   width: 100%;
-
   max-width: 900px;
-
   max-height: 1px;
 }
-
 .modal-content img {
   position: absolute;
-
   top: 0;
-
   bottom: 0;
-
   left: 0;
-
   right: 0;
-
   margin: auto;
-
   display: block;
-
   width: 100%;
-
   height: auto;
 }
-
 .closeBtn {
   background: none;
-
   border-radius: 50%;
-
   border: none;
-
   position: absolute;
-
   width: 2rem;
-
   height: 2rem;
-
   top: 15px;
-
   right: 29px;
-
   cursor: pointer;
-
   font-weight: bold;
 }
-
 #closeBtnImage {
   width: 40px;
-
   opacity: 0.65;
 }
-
 #Gallery_Container {
   display: inline-block;
-
   border: 2px solid transparent;
-
   position: relative;
 }
-
 #Gallery_Container {
   background: linear-gradient(
     to right,
-
     black,
     rgb(46, 46, 46),
     #d98a86,
@@ -503,29 +316,23 @@ p {
     rgb(46, 46, 46),
     black
   );
-
   background-size: 600% 100%;
-
   animation: rainbowBorder 20s ease infinite;
 }
-
 @keyframes rainbowBorder {
   0% {
     background-position: 1% 50%;
   }
-
   50% {
     background-position: 99% 50%;
   }
-
   100% {
     background-position: 1% 50%;
   }
 }
-
 .spotify-container-item {
   border-radius: 12px;
 }
-/* #spotify-container {
+#spotify-container {
   min-width: 30rem;
-} */
+}
