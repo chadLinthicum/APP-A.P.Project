@@ -334,5 +334,5 @@ p {
   border-radius: 12px;
 }
 #spotify-container {
-  min-width: 30rem;
+  max-width: 50rem;
 }
