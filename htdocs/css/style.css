@@ -175,6 +175,8 @@ p {
 }
 #Marquee {
   height: 12px;
+  white-space: nowrap;
+  
 }
 @keyframes move-rtl {
   0% {
@@ -183,6 +185,15 @@ p {
   100% {
     transform: translateX(-350px);
   }
+}
+#Tour_Container h2{
+  margin-bottom: 0;
+}
+#Tour_Container h5{
+  margin-top: 0;
+}
+#Tour_Disclaimer{
+  margin: 0;
 }
 #Tour_List {
   padding: 0;
@@ -335,4 +346,8 @@ p {
 }
 #spotify-container {
   max-width: 50rem;
+}
+#spotify-container iframe {
+  width: 90%;
+  height: 88px;
 }
