@@ -176,7 +176,6 @@ p {
 #Marquee {
   height: 12px;
   white-space: nowrap;
-  
 }
 @keyframes move-rtl {
   0% {
@@ -186,13 +185,13 @@ p {
     transform: translateX(-350px);
   }
 }
-#Tour_Container h2{
+#Tour_Container h2 {
   margin-bottom: 0;
 }
-#Tour_Container h5{
+#Tour_Container h5 {
   margin-top: 0;
 }
-#Tour_Disclaimer{
+#Tour_Disclaimer {
   margin: 0;
 }
 #Tour_List {
@@ -327,7 +326,7 @@ p {
     rgb(46, 46, 46),
     black
   );
-  background-size: 600% 100%;
+  background-size: 300% 100%;
   animation: rainbowBorder 20s ease infinite;
 }
 @keyframes rainbowBorder {
