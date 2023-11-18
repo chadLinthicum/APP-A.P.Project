@@ -185,12 +185,16 @@ p {
     transform: translateX(-350px);
   }
 }
-#Tour_Container h2 {
-  margin-bottom: 0;
+
+#Tour_Container span {
+  font-size: larger;
+  font-weight: bold;
 }
-#Tour_Container h5 {
-  margin-top: 0;
+
+#Tour_Container span:nth-child(6) {
+  font-size: medium;
 }
+
 #Tour_Disclaimer {
   margin: 0;
 }
