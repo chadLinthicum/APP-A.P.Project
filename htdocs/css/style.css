@@ -330,10 +330,10 @@ p {
     rgb(46, 46, 46),
     black
   );
-  background-size: 300% 100%;
-  animation: rainbowBorder 20s ease infinite;
+  background-size: 100% 100%;
+  /* animation: rainbowBorder 20s ease infinite; */
 }
-@keyframes rainbowBorder {
+/* @keyframes rainbowBorder {
   0% {
     background-position: 1% 50%;
   }
@@ -343,7 +343,7 @@ p {
   100% {
     background-position: 1% 50%;
   }
-}
+} */
 .spotify-container-item {
   border-radius: 12px;
 }
