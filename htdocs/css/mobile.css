@@ -68,7 +68,7 @@ p {
     transform: translateX(100vw);
   }
   100% {
-    transform: translateX(-1000px);
+    transform: translateX(-1250px);
   }
 }
 #Nav_Social {
