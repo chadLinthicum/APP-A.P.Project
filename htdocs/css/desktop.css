@@ -26,7 +26,15 @@ p {
   display: none;
 }
 #Marquee {
-  animation: move-rtl 15000ms linear infinite;
+  animation: move-rtl 25000ms linear infinite;
+}
+@keyframes move-rtl {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-1000px);
+  }
 }
 #Nav_Social {
   margin-right: 0.5rem;
@@ -87,4 +95,13 @@ nav a:hover {
 #closeBtnImage:hover {
   opacity: 1;
   transition: opacity 0.25s ease;
+}
+#Video_Stony_Stare {
+  width: 45%;
+  height: 400px;
+  border-radius: 1rem;
+  margin-bottom: 12px;
+  border: 2.5px solid black;
+  /* box-shadow: rgba(0, 0, 0, 0.5) 0 1px 25px 10px;
+  border: 7.5px solid transparent; */
 }
