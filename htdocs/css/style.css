@@ -179,14 +179,6 @@ p {
   height: 22px;
   white-space: nowrap;
 }
-@keyframes move-rtl {
-  0% {
-    transform: translateX(100vw);
-  }
-  100% {
-    transform: translateX(-350px);
-  }
-}
 
 #Tour_Container span {
   font-size: larger;

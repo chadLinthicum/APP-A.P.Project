@@ -61,7 +61,7 @@ p {
   justify-content: space-evenly;
 }
 #Marquee {
-  animation: move-rtl 15000ms linear infinite;
+  animation: move-rtl 17000ms linear infinite;
 }
 @keyframes move-rtl {
   0% {
