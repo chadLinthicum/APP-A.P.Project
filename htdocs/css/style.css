@@ -45,7 +45,16 @@ nav ul {
 nav ul li {
   display: inline-block;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
 p {
+  text-wrap: pretty;
   text-align: center;
   font-size: 1.15rem;
   font-weight: 375;
