@@ -65,3 +65,50 @@ $(".nav-link").click(function () {
 });
 
 // subscribeText.value = "Hello, please subscribe me to your newsletter!";
+strikethroughPastTourDates();
+function strikethroughPastTourDates() {
+  // Get the current date and time
+  const currentDate = new Date();
+  currentDate.setHours(23, 59, 59, 999); // Set time to end of the day
+
+  // Get all the list items
+  const listItems = document.querySelectorAll("#Tour_List li");
+
+  // Loop through the list items and apply strikethrough style to the ones with passed dates
+  listItems.forEach((item) => {
+    const dateString = item.textContent.split(" - ")[0];
+    const [eventMonth, eventDay] = dateString.split(" ");
+    const eventDate = new Date(
+      currentDate.getFullYear(),
+      convertMonthStringToIndex(eventMonth),
+      eventDay,
+      23,
+      59,
+      59,
+      999 // Set time to end of the day
+    );
+
+    if (eventDate < currentDate) {
+      item.style.textDecoration = "line-through";
+    }
+  });
+
+  // Helper function to convert month string to index (0-based)
+  function convertMonthStringToIndex(monthString) {
+    const months = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
+    return months.indexOf(monthString);
+  }
+}

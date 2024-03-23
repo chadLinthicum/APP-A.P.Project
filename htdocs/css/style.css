@@ -86,6 +86,9 @@ p {
 .music-symbols {
   width: 2.25rem;
 }
+.strikethrough {
+  text-decoration: line-through;
+}
 #About_Container,
 #Subscribe_Container {
   padding-bottom: 15px;
